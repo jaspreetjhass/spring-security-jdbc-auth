@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    active:
+    - h2
+  #datasource:  #  initialization-mode: always # required if the db is not H2/HSQL(in-memory db)
