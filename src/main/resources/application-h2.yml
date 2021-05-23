@@ -1,0 +1,9 @@
+jdbc:
+  auth:
+    datasource:
+      driver-class-name: org.h2.Driver 
+      url: jdbc:h2:mem:auth
+      user-name: sa 
+      password:
+      
+spring.h2.console.enabled: true
